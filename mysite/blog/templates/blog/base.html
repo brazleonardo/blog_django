@@ -10,8 +10,9 @@
 </head>
 <body>
    <section id="wrap_heading">
-       <div class="container">
-       		<h1><a href="/">Blog Django</a></h1>
+       <div class="container">       		 
+       		<h1 class="pull-left"><a href="/">Blog Django</a></h1>
+       		<a href="{% url 'blog.views.post_new' %}" class="btn btn-default pull-right"><span class="glyphicon glyphicon-plus"></span> novo post</a>
    		</div>
    </section>
 
